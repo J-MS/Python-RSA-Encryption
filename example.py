@@ -7,7 +7,7 @@ from math import ceil;
 #realistic and 'smart' number. How big should I primes be, should they really
 #start at two?
 primes = [2];
-for interger in range(3, 100000): 
+for interger in range(3, 100000): #get this to 25,000 
 	root = ceil(sqrt(interger))
 	for index, prime in enumerate(primes):
 		if prime >= root: #checks if we are geting too big
