@@ -50,4 +50,4 @@ print("Alice Shared Secret Key: " + str(aliceSharedSK));
 bobSharedSK = ((A ** bobSK) % sharedPrime);
 print("Bob Shared Secret Key: " + str(bobSharedSK));
 
-# next thing to do is a way to encrypt a message, and decrypt
+# next thing to do is a way to encrypt a message, and decrypt. can you help me?
